@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-alpine
 MAINTAINER SightSeeker
 
-ADD target/keycloak-demo-1.0-SNAPSHOT-swarm.jar /opt/keycloak-demo-swarm.jar
+ADD target/keycloak-demo-swarm.jar /opt/keycloak-demo-swarm.jar
 
 EXPOSE 8080
 
